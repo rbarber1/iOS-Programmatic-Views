@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     //MARK:- Inserting Subviews
     func addAndExpand(_ view: UIView) {
