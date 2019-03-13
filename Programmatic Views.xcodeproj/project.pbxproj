@@ -10,7 +10,10 @@
 		087D9BC5218C935800FBDF4F /* Programmatic_Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087D9BBB218C935700FBDF4F /* Programmatic_Views.framework */; };
 		087D9BCA218C935800FBDF4F /* Programmatic_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D9BC9218C935800FBDF4F /* Programmatic_ViewsTests.swift */; };
 		087D9BCC218C935800FBDF4F /* Programmatic_Views.h in Headers */ = {isa = PBXBuildFile; fileRef = 087D9BBE218C935700FBDF4F /* Programmatic_Views.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		087D9BD6218C96D300FBDF4F /* UIView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D9BD5218C96D300FBDF4F /* UIView_Extensions.swift */; };
+		08E0BB642239771500C86D09 /* UIViewAlignExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0BB632239771400C86D09 /* UIViewAlignExtensions.swift */; };
+		08E0BB672239772400C86D09 /* PinWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0BB652239772400C86D09 /* PinWarning.swift */; };
+		08E0BB6A2239775800C86D09 /* UIViewPinExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0BB692239775800C86D09 /* UIViewPinExtensions.swift */; };
+		08E0BB6C2239778100C86D09 /* ViewEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0BB6B2239778100C86D09 /* ViewEdge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,10 @@
 		087D9BC4218C935800FBDF4F /* Programmatic ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087D9BC9218C935800FBDF4F /* Programmatic_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_ViewsTests.swift; sourceTree = "<group>"; };
 		087D9BCB218C935800FBDF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		087D9BD5218C96D300FBDF4F /* UIView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extensions.swift; sourceTree = "<group>"; };
+		08E0BB632239771400C86D09 /* UIViewAlignExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAlignExtensions.swift; sourceTree = "<group>"; };
+		08E0BB652239772400C86D09 /* PinWarning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinWarning.swift; sourceTree = "<group>"; };
+		08E0BB692239775800C86D09 /* UIViewPinExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPinExtensions.swift; sourceTree = "<group>"; };
+		08E0BB6B2239778100C86D09 /* ViewEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEdge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +79,10 @@
 		087D9BBD218C935700FBDF4F /* Programmatic Views */ = {
 			isa = PBXGroup;
 			children = (
-				087D9BD7218C96EC00FBDF4F /* Extensions */,
 				087D9BBE218C935700FBDF4F /* Programmatic_Views.h */,
+				08E0BB652239772400C86D09 /* PinWarning.swift */,
+				08E0BB6B2239778100C86D09 /* ViewEdge.swift */,
+				08E0BB622239771400C86D09 /* Extensions */,
 				087D9BBF218C935700FBDF4F /* Info.plist */,
 			);
 			path = "Programmatic Views";
@@ -89,10 +97,11 @@
 			path = "Programmatic ViewsTests";
 			sourceTree = "<group>";
 		};
-		087D9BD7218C96EC00FBDF4F /* Extensions */ = {
+		08E0BB622239771400C86D09 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				087D9BD5218C96D300FBDF4F /* UIView_Extensions.swift */,
+				08E0BB692239775800C86D09 /* UIViewPinExtensions.swift */,
+				08E0BB632239771400C86D09 /* UIViewAlignExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,7 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087D9BD6218C96D300FBDF4F /* UIView_Extensions.swift in Sources */,
+				08E0BB672239772400C86D09 /* PinWarning.swift in Sources */,
+				08E0BB6C2239778100C86D09 /* ViewEdge.swift in Sources */,
+				08E0BB6A2239775800C86D09 /* UIViewPinExtensions.swift in Sources */,
+				08E0BB642239771500C86D09 /* UIViewAlignExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
